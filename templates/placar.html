@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Placar do Turista</title>
+</head>
+<body>
+    <h1>Progresso do Jogo</h1>
+    <div id="placar"></div>
+
+    <script>
+        async function carregarPlacar() {
+            const res = await fetch("/api/placar");
+            const dados = await res.json();
+            document.getElementById("placar").innerHTML = `
+                <p>Pontos turísticos visitados: ${dados.visitados} de ${dados.total_pontos}</p>
+                <p>Progresso: ${dados.porcentagem}%</p>
+            `;
+        }
+
+        carregarPlacar();
+    </script>
+</body>
+</html>
