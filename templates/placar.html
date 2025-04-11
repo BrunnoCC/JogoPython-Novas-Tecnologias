@@ -4,8 +4,41 @@
     <meta charset="UTF-8">
     <title>Placar do Turista</title>
 </head>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+
+
 <body>
-    <h1>Progresso do Jogo</h1>
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: linear-gradient(to left, #0f2027, #203a43, #2c5364);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+
+      display: flex;
+      justify-content: center; /* centraliza na horizontal */
+      align-items: center;     /* centraliza na vertical */
+      text-align: center;      /* alinha o texto dentro do elemento */
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li::before {
+      content: "✅ ";
+    }
+  </style>
+
+    <div align="center">
+
+    <h2>Progresso: {{ porcentagem }}% concluído ({{ visitados }} de {{ total }})</h2>
+
     <div id="placar"></div>
 
     <script>
@@ -19,6 +52,19 @@
         }
 
         carregarPlacar();
+
+
+
     </script>
+        <h2>Pontos Turísticos Visitados</h2>
+        <ul>
+        {% for ponto in pontos: %}
+        <li>{{ ponto.nome }}</li>
+         {% endfor %}
+         </ul>
+
+
+    </div>
+
 </body>
 </html>

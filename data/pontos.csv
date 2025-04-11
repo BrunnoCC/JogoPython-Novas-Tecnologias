@@ -1,21 +1,21 @@
 nome,x,y,descricao,visitado
-Catedral,100,100,Igreja icÃ´nica com arquitetura moderna,False
+Catedral,100,100,Igreja icônica com arquitetura moderna,False
 Congresso Nacional,200,200,Sede do Legislativo,False
-Torre de TV,300,300,Torre com vista panorÃ¢mica,False
-PalÃ¡cio da Alvorada,400,400,ResidÃªncia oficial do presidente,False
+Torre de TV,300,300,Torre com vista panorâmica,False
+Palácio da Alvorada,400,400,Residência oficial do presidente,False
 Museu Nacional,500,500,Museu futurista de arte e cultura,False
 Memorial JK,150,120,Memorial de Juscelino Kubitschek,False
-Parque da Cidade,250,220,Maior parque urbano de BrasÃ­lia,False
+Parque da Cidade,250,220,Maior parque urbano de Brasília,False
 Ponte JK,350,320,Ponte com design arrojado,False
-Esplanada dos MinistÃ©rios,450,420,Conjunto dos ministÃ©rios federais,False
-PraÃ§a dos TrÃªs Poderes,550,520,Marco polÃ­tico da capital,False
-Teatro Nacional,120,140,Centro cultural importante,True
-Templo da Boa Vontade,220,240,Templo espiritual em forma de pirÃ¢mide,False
-ZoolÃ³gico de BrasÃ­lia,320,340,ZoolÃ³gico com animais do cerrado,False
-Jardim BotÃ¢nico,420,440,PreservaÃ§Ã£o de plantas nativas,False
-PalÃ¡cio do Itamaraty,520,540,Sede da diplomacia brasileira,False
-PlanetÃ¡rio,180,160,Centro de astronomia,False
-Lago ParanoÃ¡,280,260,Lago artificial famoso,False
-EstÃ¡dio ManÃ© Garrincha,380,360,EstÃ¡dio de futebol,False
+Esplanada dos Ministérios,450,420,Conjunto dos ministérios federais,False
+Praça dos Três Poderes,550,520,Marco político da capital,False
+Teatro Nacional,120,140,Centro cultural importante,False
+Templo da Boa Vontade,220,240,Templo espiritual em forma de pirâmide,False
+Zoológico de Brasília,320,340,Zoológico com animais do cerrado,False
+Jardim Botânico,420,440,Preservação de plantas nativas,False
+Palácio do Itamaraty,520,540,Sede da diplomacia brasileira,False
+Planetário,180,160,Centro de astronomia,False
+Lago Paranoá,280,260,Lago artificial famoso,False
+Estádio Mané Garrincha,380,360,Estádio de futebol,False
 CCBB,480,460,Centro Cultural Banco do Brasil,False
-Parque Olhos dâ€™Ãgua,580,560,Parque ecolÃ³gico urbano,False
+Parque Olhos d’Água,580,560,Parque ecológico urbano,False
