@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tirar Foto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+          height: 100vh;
+          background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+          color: white;
+          font-family: 'Poppins', sans-serif;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Envie uma foto do ponto turístico: {{ nome }}</h1>
+        <form action="/upload?nome={{ nome }}" method="post" enctype="multipart/form-data">
+            <input type="file" name="arquivo" accept="image/*" capture="environment">
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
