@@ -1,7 +1,7 @@
 Turista GO - Edição Brasília
 Projeto interativo desenvolvido para a matéria de Novas Tecnologias da Universidade Católica de Brasília.
 
-"Turista GO" é um jogo de exploração feito em Pygame e conectado a uma aplicação web em Flask. O objetivo é navegar por um mapa de Brasília e "visitar" os pontos turísticos. Para validar uma visita, o jogador escaneia um QR Code com o celular e envia uma foto do local, que é autenticada por um sistema de reconhecimento de imagem em OpenCV. O progresso de cada jogador fica salvo em seu perfil no site.
+<p text-align:justify>"Turista GO" é um jogo de exploração feito em Pygame e conectado a uma aplicação web em Flask. O objetivo é navegar por um mapa de Brasília e "visitar" os pontos turísticos. Para validar uma visita, o jogador escaneia um QR Code com o celular e envia uma foto do local, que é autenticada por um sistema de reconhecimento de imagem em OpenCV. O progresso de cada jogador fica salvo em seu perfil no site.</p>
 
 Tecnologias: Python, Flask, Pygame, OpenCV, e Pandas.
 
