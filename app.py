@@ -130,7 +130,7 @@ def visitar(nome_ponto):
     return render_template("tirar_foto.html", nome=nome_ponto, username=username)
 
 
-# ROTA MODIFICADA: Recebe usuário pela URL e atualiza os dois arquivos de status
+# ROTA MODIFICADA: Agora renderiza templates para sucesso e falha
 @app.route("/upload", methods=["POST"])
 def upload():
     nome_ponto = request.args.get("nome", "sem_nome")
@@ -161,9 +161,10 @@ def upload():
                 f.seek(0)
                 f.truncate()
                 json.dump(progresso, f)
-            return f"<h1>Sucesso!</h1><p>Foto do ponto '{nome_ponto}' validada para o usuário '{username}'.</p><p>Pode fechar esta janela.</p>"
+            return render_template("sucesso_validacao.html", nome_ponto=nome_ponto, username=username)
         else:
-            return f"<h1>Falha na Validação</h1><p>A foto enviada não corresponde ao ponto turístico '{nome_ponto}'.</p><p>Tente novamente no jogo.</p>"
+            # Em vez de retornar um H1, renderiza a página de falha
+            return render_template("falha_validacao.html", nome_ponto=nome_ponto)
 
     return "Nenhum arquivo enviado.", 400
 
