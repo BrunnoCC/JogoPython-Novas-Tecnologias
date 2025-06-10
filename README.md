@@ -7,11 +7,21 @@ Tecnologias: Python, Flask, Pygame, OpenCV, e Pandas.
 
 Equipe de Desenvolvimento
 Ana Eduarda Raposo Medeiros - uc23200232
+<br>
 Anette Stefany Villalba Palomino - uc23200441
+<br>
 Agatha Karenne De Andrade Machado - uc23200247
+<br>
 Brunno Calado Cavalcante - uc23101210
+<br>
 Clarice Christine Soares Viana - uc23200796
+<br>
 Débora Cristina Silva Ferreira - uc23200792
+<br>
 Disciplina
+<br>
+
+
 Matéria: Novas Tecnologias
+<br>
 Professor: Adam Smith
